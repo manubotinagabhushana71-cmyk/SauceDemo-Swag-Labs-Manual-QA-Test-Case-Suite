@@ -57,17 +57,16 @@ Testing combined **positive, negative, boundary, security (XSS/SQLi), and sessio
 
 All 19 defects identified during testing were logged and tracked in Jira, moving through a To Do → In Progress → In Review → Done workflow to reflect real-world triage.
 
-![Jira board overview](Screenshot%202026-09-11%20122012.png)
-
+![Jira board overview](jira-board-overview.png)
 **Sample tracked defects:**
 
-![BUG-SL-001](Screenshot%202026-09-11%20122225.png)
+![BUG-SL-001](bug-sl-001-session-logout.png)
 *Session not invalidated after logout — Severity: High, Priority: High*
 
-![BUG-SL-007](Screenshot%202026-09-11%20122332.png)
+![BUG-SL-007](bug-sl-007-cart-data-leak.png)
 *Cart data leaks between different user sessions — Severity: High, Priority: High*
 
-![BUG-SL-013](Screenshot%202026-09-11%20122443.png)
+![BUG-SL-013](bug-sl-013-xss-zip-field.png)
 *Zip/Postal Code field lacks input sanitization (XSS) — Severity: High, Priority: High*
 
 Each ticket includes reproduction steps, expected vs. actual results, and severity/priority ratings — cross-referenced with the Bug IDs in the test case workbook above.
