@@ -49,7 +49,7 @@ Testing combined **positive, negative, boundary, security (XSS/SQLi), and sessio
 
 ## 📁 Files
 
-- `final_full_edited.xlsx` — Full test case suite (all 7 sheets)
+- `SauceDemo_QA_Test_Case_Suite.xlsx` — Full test case suite (all 7 sheets)
 
 ---
 *Tested by: Nagabhushanamma*
